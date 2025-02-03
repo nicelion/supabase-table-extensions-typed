@@ -18,6 +18,7 @@ Here's the solution: An easy way to adapt the derived types and having fully typ
 1. You generate the types at `supabase.ts`
 1. You copy the file `supabase.extended.ts` to the same directory
 1. You adapt `TableExtensions` to your likings
+1. You adapt `FunctionExtensions` to your likings
 1. You `import { Database } from './supabase.extended`
 1. You instantiate a client with `createClient<Database>` from the previous import (of the extended file, not the `supabase.ts`)
 
